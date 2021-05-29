@@ -1,8 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const dbConnection = require("./config/db");
-const cors = require('cors')
-
+const cors = require('cors');
+const path = require("path");
 const app = express();
 
 dbConnection();
