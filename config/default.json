@@ -1,0 +1,4 @@
+{
+	"mongoURL": "mongodb+srv://mridul:mridul@cluster0.8nmww.mongodb.net/blog?retryWrites=true&w=majority",
+	"jwtSecret": "secret"
+}
