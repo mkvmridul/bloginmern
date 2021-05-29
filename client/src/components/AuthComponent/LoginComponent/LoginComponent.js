@@ -88,10 +88,12 @@ const LoginComponent = () => {
 	      type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+		required
               className={classes.textField}
             />
 
             <TextField
+		required
               id="filled-password-input"
               label="Enter your password"
               type="password"
