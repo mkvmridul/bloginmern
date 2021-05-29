@@ -11,7 +11,7 @@ export const AuthContext = React.createContext({
 const AuthContextProvider = props => {
 
 	const [auth, setAuth] = useState(false);
-	const baseUrl = "http://localhost:3001";
+	const baseUrl = "http://localhost:5000";
 
 	useEffect(()=>{
 		localStorage.token && login(JSON.parse(localStorage.token));
