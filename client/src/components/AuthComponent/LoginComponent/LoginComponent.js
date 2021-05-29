@@ -85,6 +85,7 @@ const LoginComponent = () => {
               label="Enter your email"
               variant="filled"
               name="email"
+	      type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className={classes.textField}
